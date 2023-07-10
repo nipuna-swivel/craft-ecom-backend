@@ -1,4 +1,4 @@
-# Ecommerce App Backend
+# Ignite Craft shop App Backend
 
 ## Instructions
 
