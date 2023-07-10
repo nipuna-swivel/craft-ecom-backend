@@ -9,6 +9,7 @@ export class UploadService {
   private bucketName = process.env.AWS_BUCKET_NAME;
 
   constructor() {
+    console.log(process.env.AWS_S3_ACCESS_KEY_ID,'process.env.AWS_S3_ACCESS_KEY_ID')
     this.s3 = new S3Client({
       region: 'us-east-1',
       credentials: {
